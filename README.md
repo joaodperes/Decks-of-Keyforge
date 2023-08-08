@@ -14,6 +14,7 @@ The file has a "Decks" sheet, with all deck characteristics such as id, name, E,
 In the second sheet, named "Houses", you'll find individual card data structured as follows:
 
 ID | House | Card | Rarity | Legacy | Maverick | Anomaly | Enhanced
+---|---|---|---|---|---|---|---
 
 **Note:** *ID refers to Deck ID, not keyforgeId*
 
