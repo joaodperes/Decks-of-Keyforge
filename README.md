@@ -16,7 +16,7 @@ In the second sheet, named "Houses", you'll find individual card data structured
 ID | House | Card | Rarity | Legacy | Maverick | Anomaly | Enhanced
 ---|---|---|---|---|---|---|---
 
-**Note:** *ID refers to Deck ID, not keyforgeId*
+> **Note:** *ID refers to Deck ID, not keyforgeId*
 
 ## cards.py
 
