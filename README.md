@@ -5,7 +5,7 @@
 
 ## config.py
 
-Insert you API Key in the file and store in the same folder as the remaining files.
+Insert your API Key in the file and store in the same folder as the remaining files.
 
 ## doks.py
 
