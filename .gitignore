@@ -154,3 +154,5 @@ cython_debug/
 # Analysis data
 *.xlsx
 *.csv
+
+config.py
