@@ -26,12 +26,5 @@ cards_df = pd.json_normalize(json_data)
 # Remove non-ASCII characters from all columns
 cards_df = cards_df.replace({r'[^\x00-\x7F]+':''}, regex=True)
 
-# Drop the 'cardText' column from the DataFrame
-cards_df = cards_df.drop('cardText', axis=1)
-cards_df = cards_df.drop('flavorText', axis=1)
-
-# Output the DataFrame to an Excel file
-cards_df.to_excel("cards.xlsx", index=False)
-
-
-
+# Output the DataFrame to a JSON file
+cards_df.to_json("cards.json", orient="records", indent=2)
